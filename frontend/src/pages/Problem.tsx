@@ -30,12 +30,13 @@ export default function Problem() {
                   problems.map((problem, index) => {
                     return (
                         
-                        <ProblemComponent onClick={()=>console.log("hello")} 
-                        style={{ border: '5px solid black' }} 
+                        <ProblemComponent 
                             key={problem._id}
                             title={problem.title}
-                            problemId={index + 1}
+                            problemId={index+1}
+                            monId={problem._id}
                             tag={problem.tag}
+
                         />
                     );
                 })
