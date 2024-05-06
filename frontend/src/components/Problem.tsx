@@ -7,7 +7,7 @@ export default function ProblemComponent({ monId,problemId, title, tag }) {
     }
     const navigate = useNavigate();
     return (
-        <div onClick={()=>goToProblem(monId)} className="w-1/2 h-28 p-5 shadow-md relative border-2 border-black">
+        <div onClick={()=>goToProblem(monId)} className="w-1/2 h-full p-5 shadow-md relative  ">
             <div className=" flex justify-normal items-start  h-full">
                 <div className="text-gray-500 text-start mr-11">{problemId}</div>
                 <div className="">

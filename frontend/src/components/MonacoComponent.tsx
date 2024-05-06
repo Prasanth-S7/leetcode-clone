@@ -12,8 +12,8 @@ export default function MonacoComponent({onChange,code}){
         <div>
             <Editor 
             onChange={handleEditorChange}
-            height="100vh"
-            width="720px"
+            height="370px"
+            width="686px"
             theme="vs-dark"
             defaultLanguage="javascript"
             ></Editor>
